@@ -1,4 +1,5 @@
-var htmlBeg = `
+(function(){
+  var htmlBeg = `
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,3 +37,4 @@ if (!puzzleElem || !cluesElem) {
   var newWindow = window.open("", "PrintPuzzle");
   newWindow.document.write(htmlComplete);
 }
+})();
