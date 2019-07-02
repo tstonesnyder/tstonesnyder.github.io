@@ -13,6 +13,7 @@
 .clues-down {column-count: 3;}
 h3 {column-span: all; margin-bottom: 0; text-transform: uppercase;}
 ol {list-style-type: none; padding-inline-start: 0; margin: 0;}
+tr {height: 45px;}
 .bg-crossword {font-family: Arial, Helvetica, sans-serif; font-size: 10pt;}
 .bg-crossword table {border: 1px solid #999;}
 .bg-crossword td {border: 1px solid #999; vertical-align: top;}
